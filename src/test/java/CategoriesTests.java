@@ -26,9 +26,9 @@ public class CategoriesTests extends BasePage {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/div[5]/div[1]/div[3]/div/div[2]/div/div[1]/div[2]/a/figure/div[1]/img")));
         categories.laptopsCategoryClick();
-        Select drpShow = new Select(driver.findElement(By.xpath("/html/body/div[1]/div[6]/div[1]/div[3]/div/div[1]/div[4]/div/div[4]/div/select")));
+        Select drpShow = new Select(driver.findElement(By.xpath("/html/body/div[1]/div[6]/div[1]/div[2]/div/div[1]/div[3]/div/div[4]/div/select")));
         drpShow.selectByVisibleText("100");
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/div[6]/div[1]/div[3]/div/div[1]/div[6]/div/div[1]/div/div[1]/div[1]/a/div/div[1]/img")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/div[6]/div[1]/div[2]/div/div[1]/div[5]/div/div[1]/div/div[1]/div[1]/a/div/div[1]/img")));
         List products = driver.findElements(By.className("product-thumb-top"));
         Assert.assertEquals(products.size(), 75);
     }
@@ -38,9 +38,9 @@ public class CategoriesTests extends BasePage {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/div[5]/div[1]/div[3]/div/div[2]/div/div[1]/div[2]/a/figure/div[1]/img")));
         categories.componentsCategoryClick();
-        Select drpShow = new Select(driver.findElement(By.xpath("/html/body/div[1]/div[6]/div[1]/div[3]/div/div[1]/div[4]/div/div[4]/div/select")));
+        Select drpShow = new Select(driver.findElement(By.xpath("/html/body/div[1]/div[6]/div[1]/div[2]/div/div[1]/div[3]/div/div[4]/div/select")));
         drpShow.selectByVisibleText("100");
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/div[6]/div[1]/div[3]/div/div[1]/div[6]/div/div[1]/div/div[1]/div[1]/a/div/div[1]/img")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/div[6]/div[1]/div[2]/div/div[1]/div[5]/div/div[1]/div/div[1]/div[1]/a/div/div[1]/img")));
         List products = driver.findElements(By.className("product-thumb-top"));
         Assert.assertEquals(products.size(), 75);
     }
@@ -50,9 +50,9 @@ public class CategoriesTests extends BasePage {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/div[5]/div[1]/div[3]/div/div[2]/div/div[1]/div[2]/a/figure/div[1]/img")));
         categories.tabletsCategoryClick();
-        Select drpShow = new Select(driver.findElement(By.xpath("/html/body/div[1]/div[6]/div[1]/div[3]/div/div[1]/div[4]/div/div[4]/div/select")));
+        Select drpShow = new Select(driver.findElement(By.xpath("/html/body/div[1]/div[6]/div[1]/div[2]/div/div[1]/div[3]/div/div[4]/div/select")));
         drpShow.selectByVisibleText("100");
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/div[6]/div[1]/div[3]/div/div[1]/div[6]/div/div[1]/div/div[1]/div[1]/a/div/div[1]/img")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/div[6]/div[1]/div[2]/div/div[1]/div[5]/div/div[1]/div/div[1]/div[1]/a/div/div[1]/img")));
         List products = driver.findElements(By.className("product-thumb-top"));
         Assert.assertEquals(products.size(), 75);
     }
@@ -62,9 +62,9 @@ public class CategoriesTests extends BasePage {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/div[5]/div[1]/div[3]/div/div[2]/div/div[1]/div[2]/a/figure/div[1]/img")));
         categories.softwareCategoryClick();
-        Select drpShow = new Select(driver.findElement(By.xpath("/html/body/div[1]/div[6]/div[1]/div[3]/div/div[1]/div[4]/div/div[4]/div/select")));
+        Select drpShow = new Select(driver.findElement(By.xpath("/html/body/div[1]/div[6]/div[1]/div[2]/div/div[1]/div[3]/div/div[4]/div/select")));
         drpShow.selectByVisibleText("100");
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/div[6]/div[1]/div[3]/div/div[1]/div[6]/div/div[1]/div/div[1]/div[1]/a/div/div[1]/img")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/div[6]/div[1]/div[2]/div/div[1]/div[5]/div/div[1]/div/div[1]/div[1]/a/div/div[1]/img")));
         List products = driver.findElements(By.className("product-thumb-top"));
         Assert.assertEquals(products.size(), 75);
     }

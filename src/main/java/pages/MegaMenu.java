@@ -70,7 +70,7 @@ private WebElement megaMenuLGSubMenu;
         megaMenuSelection.moveToElement(megaMenuAppleMacbookSubMenu).click().perform();
     }
 
-    @FindBy (xpath = "/html/body/div[1]/div[5]/header/div[3]/div[1]/div/div[3]/nav/div/ul/li[4]/ul/div/div[1]/div[2]/div/div/ul/li[1]/a")
+    @FindBy (xpath = "/html/body/div[1]/div[5]/header/div[3]/div[1]/div/div[3]/nav/div/ul/li[4]/ul/div/div[1]/div[2]/div/div/ul/li[2]/a")
     private WebElement megaMenuAsusSubMenu;
 
     public void megaMenuAsusSubMenuClick() {
